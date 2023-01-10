@@ -11,7 +11,6 @@ import { CreateLead } from "./pages/CreateLead";
 import { CreateScript } from "./pages/CreateScrpt";
 import { AuthProvider } from "./hoc/AuthProvider";
 import { RequireAuth } from "./hoc/RequireAuth";
-import { ChangeTasks } from "./pages/ChangeTasks";
 
 class App extends React.Component {
   render() {
@@ -30,7 +29,6 @@ class App extends React.Component {
           <Route path="/project_react_redux_routing/Discovery" element={<Discovery />} />
           <Route path="/project_react_redux_routing/CreateScript" element={<CreateScript />} />
           <Route path="/project_react_redux_routing/Analizer" element={<Analizer />} />
-          <Route path="/project_react_redux_routing/ChangeTasks" element={<ChangeTasks />} />
           <Route path="*" element={<NofoundPage />} />
         </Routes>
       </AuthProvider>

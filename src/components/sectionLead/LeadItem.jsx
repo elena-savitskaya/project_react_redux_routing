@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { removeLead } from "../../store/leadSlice";
-import { Link } from "react-router-dom";
 
 const LeadItem = ({ id, name, source, budget, nextTask, contacts }) => {
 
@@ -16,7 +15,7 @@ const LeadItem = ({ id, name, source, budget, nextTask, contacts }) => {
       </td>
       <td className="text">{source}</td>
       <td className="text">{budget}</td>
-      <td className="text"><Link className="text" to="/project_react_redux_routing/ChangeTasks">{nextTask}</Link></td>
+      <td className="text">{nextTask}</td>
       <td className="text">{contacts}</td>
     </>
   );

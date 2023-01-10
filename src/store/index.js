@@ -12,14 +12,11 @@ import storage from 'redux-persist/lib/storage';
 import scriptReduser from './scriptSlice';
 import leadReducer from './leadSlice';
 import tasksReduser from './tasksSlice';
-import changeTasksReduser from './changeTasksSlice';
-
 
 const rootReducer = combineReducers({
   scripts: scriptReduser,
   leads: leadReducer,
   tasks: tasksReduser,
-  changeTasks: changeTasksReduser,
 });
 
 const persistConfig = {
