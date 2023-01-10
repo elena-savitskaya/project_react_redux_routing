@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-dark: #1B1B1B;
+$color-green: #BBFC1A;
+$color-yellow: #FFDC00;
+$color-orange: #FF5C00;
+$color-red: #ff0000;
+$color-background: #FFFFF4;
+$color-button-hover: #bcfc1ad5;
+$color-button-active: #b7ff00;
+$color-text-hover: #b0a6a6;
+$text-yellow: #FFDC00;
+$text-orange: #FF5C00;
+$color-massage: #0f834d;
+$color-opacity: #00000026;
+$color-checked: #88ff00;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: $color-background;
+}
+
+.container {
+    max-width: 430px;
+    padding: 0 17px 0 24px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    color: $color-black;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: $color-black;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: $color-black;
+}
+
+.text-yellow {
+    color: $text-yellow;
+}
+
+.text-orange {
+    color: $text-orange;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th, tr {
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.scroll-table {
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+
+.table {
+    margin-top: 12px;
+
+    .subtitle {
+        font-weight: 700;
+        background-color: $color-yellow;
+    }
+
+    .text {
+        font-weight: 500;
+    }
+}

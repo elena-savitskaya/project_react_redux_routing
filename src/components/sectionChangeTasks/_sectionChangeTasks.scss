@@ -1,0 +1,71 @@
+@import "../../scss/base";
+@import "../../scss/reset";
+
+.change-tasks {
+    padding: 30px 0;
+    background-color: $color-background;
+
+    &_list {
+        margin-top: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+        & input[name=field]:checked + label {
+            background: $color-checked;  
+            opacity: 100%;      
+        }
+
+        & input[name=field]{
+            display: none;
+        }
+
+        & label { 
+            padding: 17px 0;
+            border: 1px solid $color-black;
+            width: 100%;
+            text-align: center;
+        }
+}    
+        .first-task {
+            background-color: $color-green;
+        }
+
+        .second-task {
+            background-color: $color-green;
+        }
+
+        .third-task {
+            background-color: $color-orange;
+        }
+
+        .fourth-task {
+            background-color: $color-green;
+            opacity: 15%;
+        }
+
+        .fifth-task {
+            background-color: $color-green;
+            opacity: 15%;
+        }
+
+    .list-image {
+        text-align: center;
+    
+        & svg {
+            fill: #1B1B1B;
+        }
+    } 
+
+    .last {
+            opacity: 15%;
+    }
+}
+    
+

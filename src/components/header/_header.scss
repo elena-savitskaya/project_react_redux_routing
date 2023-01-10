@@ -1,0 +1,14 @@
+@import "../../scss/base";
+
+.header {
+    height: 80px;
+    border-bottom: 3px solid $color-dark;
+    background-color: $color-background;
+}
+
+.header-menu {
+    padding: 13px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

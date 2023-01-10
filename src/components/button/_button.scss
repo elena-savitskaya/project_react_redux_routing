@@ -1,0 +1,22 @@
+@import "../../scss/base";
+
+.form-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: $color-black;
+
+    max-width: 230px;
+    margin: 89px auto 0;
+    padding: 22px 84px;
+    background-color: $color-green;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-button-hover;
+    }
+
+    &:active {
+        background-color: $color-button-active;
+    }
+}
